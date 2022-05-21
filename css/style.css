@@ -1,11 +1,50 @@
 body{
-    background: black;
+    background: rgb(68, 62, 62);
+    color: white;
 
+}
+
+.inputField{
+    border-radius: 2vw;
+    border: 0px;
+    padding: 1em 2em 1em 2em;
+    width: 100%;
+}
+
+.input-div{
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+form{
+
+    width: 30vw;
+    
+}
+
+.button-submit{
+
+    padding: 1em 2em 1em 2em;
+    border-radius: 2vw;
+    border: none;
+    color:white;
+    background-color: blueviolet;
+    width: 100%;
+    
+}
+
+.button-submit:hover{
+
+    background-color: rgb(50, 14, 83);
+        
 }
 
 .main-div{
 
     width: 80vw;
+    margin: 0 auto;
     
 }
 

@@ -1,0 +1,31 @@
+body{
+
+    background-color: gray;
+    
+}
+
+.main-div{
+
+    width: 30vw;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    border-radius: 2vw;
+    padding: 2em;
+    
+}
+
+.grid-2-col{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li{
+    padding: 0px;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
