@@ -1,0 +1,34 @@
+body{
+    background: black;
+
+}
+
+.main-div{
+
+    width: 80vw;
+    
+}
+
+.title-text{
+    padding: 5rem;
+}
+
+h1{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+
+        font-size: 2rem;
+    }
+
+    .main-div{
+        width: 90%;
+    }
+}
+
