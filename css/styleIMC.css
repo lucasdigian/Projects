@@ -29,3 +29,37 @@ ul{
     list-style-type: none;
     padding: 0px;
 }
+
+._margin-1em{
+    margin: 0.5em 0 0.5em 0;
+}
+
+.inputField{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: aquamarine;
+    color:black;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+
+.namefield{
+
+    font-size: large;
+
+
+}
+
+.button-form{
+
+    width: 100%;
+    margin-top: 1em;
+    background-color: rgba(4, 25, 94, 0.849);
+    color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    padding: 1em;
+}

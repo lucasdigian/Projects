@@ -15,26 +15,28 @@
     <div class="main-div">
 
         <h1>Tabela IMC</h1>
-        
+
         <div class="grid-2-col">
             <div class="imc-classification">
                 <h2>IMC</h2>
                 <ul>
                     <li>Menos de 18.5</li>
-                    <li>Menos de 18.5</li>
-                    <li>Menos de 18.5</li>
-                    <li>Menos de 18.5</li>
-                    <li>Menos de 18.5</li>    
+                    <li>Entre 18,5 e 24,9</li>
+                    <li>Entre 25 e 29,9</li>
+                    <li>Entre 30 e 34,9</li>
+                    <li>Entre 35 e 39,9</li>
+                    <li>Acima de 40</li>
                 </ul>
             </div>
             <div class="results">
                 <h2>RESULTADO</h2>
                 <ul>
                     <li>Abaixo de peso</li>
-                    <li>Abaixo de peso</li>
-                    <li>Abaixo de peso</li>
-                    <li>Abaixo de peso</li>
-                    <li>Abaixo de peso</li>    
+                    <li>Peso Normal</li>
+                    <li>Sobrepeso</li>
+                    <li>Obesidade Grau 1</li>
+                    <li>Obesidade Grau 2</li>
+                    <li>Obesidade Grau 3</li>
                 </ul>
             </div>
 
@@ -42,12 +44,21 @@
 
         <h1>CALCULE SEU IMC</h1>
 
-        <form action="">
+        <form action="" class="form">
 
             <div class="input-div">
-                <label for="peso">Peso:</label>
-                <input type="number" name="" id="">
+                <label for="peso" class="namefield">Peso:</label>
+                <div class="_margin-1em">
+                    <input type="text" name="peso" class="inputField" id="" required>
+                </div>
+                <label for="altura" class="namefield">Altura:</label>
+                <div class="_margin-1em">
+                    <input type="text" name="altura" class="inputField" id="" required>
+                </div>
 
+                <div>
+                    <button class="button-form" type="submit">Calcular IMC</button>
+                </div>
             </div>
 
 
